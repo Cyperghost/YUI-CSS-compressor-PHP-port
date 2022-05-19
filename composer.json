@@ -4,6 +4,7 @@
     "keywords": ["yui", "compressor", "css", "cssmin", "compress", "minify"],
     "homepage": "https://github.com/tubalmartin/YUI-CSS-compressor-PHP-port",
     "license": "BSD-3-Clause",
+    "version": "v2.4.8-p11",
     "authors": [
         {
             "name": "Túbal Martín",
