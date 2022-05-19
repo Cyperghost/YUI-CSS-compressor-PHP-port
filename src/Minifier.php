@@ -387,7 +387,7 @@ class Minifier
 
                 // Remove all spaces only for base64 encoded URLs.
                 if (stripos($token, 'base64,') !== false) {
-                    $token = preg_replace('/\s+/S', '', $token);
+                    $token = preg_replace('/\s+/S', ' ', $token);
                 }
 
                 $ret .= 'url('. $this->registerPreservedToken(trim($token)) .')';
